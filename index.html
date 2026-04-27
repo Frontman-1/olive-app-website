@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Olive: Your family's nutrition ally and powerful food scanner app</title>
+  <meta name="description" content="Join a supportive community of over 200,000 users, get expert-backed insights, and simplify food choices. Olive's database consists of over 1 million products, 10,000 healthy-fats restaurants, and independently lab-tested foods so you can feed your family with confidence.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Discover Olive: Your family's nutrition ally and powerful food scanner app">
+  <meta property="og:description" content="Join a supportive community of over 200,000 users, get expert-backed insights, and simplify food choices.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar navbar-expand-lg navbar-olive" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/olive.svg" alt="Olive Logo" height="40">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Food</a></li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <a href="#" class="btn-signin d-none d-lg-inline">Sign in</a>
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-olive">
+          Get Olive
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <div class="hero-wrapper">
+    <section class="hero-section" id="hero">
+      <!-- Trust Avatars -->
+      <div class="hero-avatars fade-up">
+        <div class="avatar-stack">
+          <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&h=100&fit=crop&q=80" alt="User">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&q=80" alt="User">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&q=80" alt="User">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80" alt="User">
+          <span class="avatar-count">3k+</span>
+        </div>
+        <span class="trust-text">Trusted by thousands of healthy families</span>
+      </div>
+
+      <!-- Hero Heading -->
+      <h1 class="fade-up">The Safest Way to Shop for Groceries</h1>
+      <p class="hero-subtitle fade-up">Use the Olive Food Scanner App to Instantly Eliminate Harmful Ingredients from Your Family's Diet and Get Expert-Backed Food Insights</p>
+
+      <!-- Hero CTA -->
+      <div class="hero-cta fade-up">
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-olive">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"/><path d="M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"/></svg>
+          Download for iOS
+        </a>
+      </div>
+
+      <!-- Phone Mockup with Product Slider -->
+      <div class="phone-mockup-container fade-up">
+        <!-- Product slider behind phone -->
+        <div class="product-slider-wrapper">
+          <div class="product-slider-track">
+            <img src="assets/images/how-to/slider/product-1.png" class="product-thumb" alt="Organic Bagels">
+            <img src="assets/images/how-to/slider/product-2.png" class="product-thumb" alt="Cacao Bar">
+            <img src="assets/images/how-to/slider/product-3.png" class="product-thumb" alt="Sparkling Tonic">
+            <img src="assets/images/how-to/slider/product-4.png" class="product-thumb" alt="Olive Crackers">
+            <img src="assets/images/how-to/slider/product-5.png" class="product-thumb active" alt="San Pellegrino">
+            <img src="assets/images/how-to/slider/product-6.png" class="product-thumb" alt="Potato Crisps">
+            <img src="assets/images/how-to/slider/product-7.png" class="product-thumb" alt="Larabar">
+            <img src="assets/images/how-to/slider/product-8.png" class="product-thumb" alt="Sour Littles">
+            <img src="assets/images/how-to/slider/product-9.png" class="product-thumb" alt="Jersey Milk">
+            <img src="assets/images/how-to/slider/product-10.png" class="product-thumb" alt="Tortilla Chips">
+          </div>
+        </div>
+
+        <!-- Phone Frame -->
+        <div class="phone-frame">
+          <div class="phone-inner">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="assets/images/how-to/slider/product-5-details.png" alt="Product Details Screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-title fade-up">
+        <h2>How the Olive Food Scanner App Works</h2>
+      </div>
+
+      <div class="row g-4 pt-4 pt-md-5">
+        <!-- Step 1: Scan & Detect -->
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <h3>Scan &amp; Detect</h3>
+            <div class="step-visual">
+              <div class="barcode-visual">
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+                <div style="display:flex;align-items:center;justify-content:center;height:100%;padding:2rem;">
+                  <img src="assets/images/how-to/barcode-image.png" alt="Barcode Scanner">
+                </div>
+                <div class="scan-line"></div>
+              </div>
+            </div>
+            <p>When you open Olive simply scan the barcode to instantly detect product ingredients. Olive's intuitive design means busy parents can quickly see which items contain harmful substances, delivering peace of mind with every scan.</p>
+          </div>
+        </div>
+
+        <!-- Step 2: Data Analysis -->
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <h3>Data Analysis &amp; Validation</h3>
+            <div class="step-visual">
+              <div class="mini-slider-wrapper">
+                <div class="mini-slider-track">
+                  <img src="assets/images/how-to/slider/product-1.png" class="product-mini" alt="Product 1">
+                  <img src="assets/images/how-to/slider/product-2.png" class="product-mini" alt="Product 2">
+                  <img src="assets/images/how-to/slider/product-3.png" class="product-mini" alt="Product 3">
+                  <img src="assets/images/how-to/slider/product-4.png" class="product-mini" alt="Product 4">
+                  <img src="assets/images/how-to/slider/product-5.png" class="product-mini" alt="Product 5">
+                  <img src="assets/images/how-to/slider/product-6.png" class="product-mini" alt="Product 6">
+                  <img src="assets/images/how-to/slider/product-7.png" class="product-mini" alt="Product 7">
+                  <img src="assets/images/how-to/slider/product-8.png" class="product-mini" alt="Product 8">
+                  <img src="assets/images/how-to/slider/product-9.png" class="product-mini" alt="Product 9">
+                  <img src="assets/images/how-to/slider/product-10.png" class="product-mini" alt="Product 10">
+                </div>
+              </div>
+            </div>
+            <p>After scanning, our food scanner app compares product data with an extensive, up-to-date food database. Using expert nutritional guidelines, Olive filters out potentially dangerous ingredients so you never have to second guess.</p>
+          </div>
+        </div>
+
+        <!-- Step 3: Actionable Insights -->
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <h3>Actionable Insights &amp; Recommendations</h3>
+            <div class="step-visual">
+              <div class="recipe-slider-wrapper">
+                <div class="recipe-slider-track">
+                  <div class="recipe-card-mini">
+                    <div class="recipe-img" style="background:url('assets/images/showcase.jpeg') center/cover;"></div>
+                    <div class="recipe-name">Veggie Spaghetti Squash</div>
+                  </div>
+                  <div class="recipe-card-mini">
+                    <div class="recipe-img" style="background:linear-gradient(135deg,#f0e6c8,#e8d5a5);"></div>
+                    <div class="recipe-name">Chhole (Chickpea Curry)</div>
+                  </div>
+                  <div class="recipe-card-mini">
+                    <div class="recipe-img" style="background:linear-gradient(135deg,#d4edda,#a8d5b1);"></div>
+                    <div class="recipe-name">Lentil and Spinach Soup</div>
+                  </div>
+                  <div class="recipe-card-mini">
+                    <div class="recipe-img" style="background:linear-gradient(135deg,#fde2c8,#f5c896);"></div>
+                    <div class="recipe-name">Stuffed Bell Peppers</div>
+                  </div>
+                  <div class="recipe-card-mini">
+                    <div class="recipe-img" style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9);"></div>
+                    <div class="recipe-name">Mediterranean Quinoa Salad</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>Once analyzed, Olive provides tailored insights and healthier product suggestions. Olive proactively flags harmful ingredients and offers personalized recommendations, empowering you to make better choices for your family's health &amp; nutrition.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 fade-up">
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-olive">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"/><path d="M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"/></svg>
+          Download for iOS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES SECTION ===================== -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <!-- Feature 1 -->
+      <div class="feature-block fade-up">
+        <div class="feature-image">
+          <img src="assets/images/showcase.jpeg" alt="Nutritional Clarity">
+        </div>
+        <div class="feature-content">
+          <h2>Achieve Nutritional Clarity</h2>
+          <ul class="feature-list">
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Olive breaks down every ingredient into clear, actionable information.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Olive scores products out of 100 based on additives, seed oils, processing level, and detected toxins.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Our ranking system is designed by registered holistic health experts, ensuring you and your family make informed decisions and improve health outcomes.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-block reverse fade-up">
+        <div class="feature-image">
+          <img src="assets/images/cta.png" alt="Proactive Filtering">
+        </div>
+        <div class="feature-content">
+          <h2>Proactive Ingredient Filtering</h2>
+          <ul class="feature-list">
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Olive flags harmful additives and controversial ingredients before they become mainstream concerns.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Keeps you ahead of potential food safety concerns.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Gives busy parents the confidence to make safer food choices every time.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-block fade-up">
+        <div class="feature-image">
+          <img src="assets/images/benefits/family.webp" alt="Real Health Outcomes">
+        </div>
+        <div class="feature-content">
+          <h2>Real Health Outcomes for Your Family</h2>
+          <ul class="feature-list">
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Empowers parents to feel more in control of their family's health.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Delivers personalized suggestions for healthier food choices.
+            </li>
+            <li>
+              <span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span>
+              Promotes long-term well-being through informed, balanced decisions.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials-section bg-light-green" id="testimonials">
+    <div class="container">
+      <h2 class="fade-up">Real Mothers, <span>Real Results</span></h2>
+      <p class="subtitle fade-up">Join thousands of satisfied parents who trust Olive to help them make healthier choices for their families.</p>
+
+      <div class="row g-4">
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Olive has completely changed the way I shop for my family. I feel confident knowing exactly what's in our food before it ever hits our pantry."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/testimonials/meghan-l.png" alt="Megan L.">
+              <span class="author-name">Megan L.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Meal planning used to be stressful. Now I scan, get recommendations, and feel great about what my kids are eating. It's that easy."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/testimonials/tina-b.png" alt="Tina B.">
+              <span class="author-name">Tina B.</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"After just a week of using Olive, I feel more in control of my family's nutrition than ever before. It's empowering to make informed choices so quickly."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/testimonials/lila-m.png" alt="Lila M.">
+              <span class="author-name">Lila M.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-link fade-up">
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank">read all 3,147+ reviews &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMPARISON TABLE ===================== -->
+  <section class="comparison-section" id="comparison">
+    <div class="container">
+      <h2 class="fade-up">Olive Food Scanner App vs. The Rest</h2>
+
+      <div class="comparison-table fade-up">
+        <div class="comparison-header">
+          <span>Feature</span>
+          <span>Olive</span>
+          <span>Others</span>
+        </div>
+        <div class="comparison-row">
+          <span>Independent Lab Testing Data</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+        <div class="comparison-row">
+          <span>Holistic Health Scoring</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+        <div class="comparison-row">
+          <span>Seed Oil Detection</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+        <div class="comparison-row">
+          <span>Toxin &amp; Heavy Metal Alerts</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+        <div class="comparison-row">
+          <span>Healthy Restaurant Finder</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+        <div class="comparison-row">
+          <span>No Brand Deals or Ads</span>
+          <span><span class="check-green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg></span></span>
+          <span><span class="cross-red"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg></span></span>
+        </div>
+      </div>
+
+      <div class="comparison-cta fade-up">
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"/><path d="M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"/></svg>
+          Download for iOS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRICING ===================== -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <h2 class="fade-up">Healthy Choices, Honest Pricing</h2>
+
+      <div class="row g-4 justify-content-center mt-2">
+        <div class="col-md-5 col-lg-4 fade-up">
+          <div class="pricing-card">
+            <div class="plan-name">monthly</div>
+            <ul class="plan-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                Unlimited Scans
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                Unlimited Database Searches
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                Comprehensive Lab-Testing Data
+              </li>
+            </ul>
+            <a href="https://signup.oliveapp.com/olive-onboarding/" target="_blank" class="btn-olive w-100 justify-content-center">Subscribe</a>
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-4 fade-up">
+          <div class="pricing-card featured">
+            <span class="pricing-badge">BEST VALUE</span>
+            <div class="plan-name">yearly</div>
+            <ul class="plan-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                Everything in monthly plan
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                Get 7 months free
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+                60% Savings
+              </li>
+            </ul>
+            <a href="https://signup.oliveapp.com/olive-onboarding/" target="_blank" class="btn-olive w-100 justify-content-center">Subscribe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 fade-up">
+        <a href="https://signup.oliveapp.com/olive-onboarding/" target="_blank" class="btn-olive-outline">Sign up for Olive today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INDEPENDENCE ===================== -->
+  <section class="independence-section fade-up">
+    <div class="container">
+      <h2>100% Independent. Always.</h2>
+      <p>We never monetize through brand deals, affiliate links, or ads &mdash; so you can trust our recommendations are always aligned with our users.</p>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2 class="fade-up">Frequently Asked Questions by Parents</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              What is the Olive food scanner app?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Olive is a comprehensive food scanner app designed to help parents identify harmful ingredients in packaged foods. Simply scan a product's barcode and Olive instantly provides detailed ingredient analysis, health scores, and safer alternatives.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              How does Olive score products?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Olive scores products on a scale of 0-100 based on multiple factors including additives, seed oils, processing level, and detected toxins. Our scoring system is designed by registered holistic health experts to provide you with a reliable, comprehensive health rating.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Is Olive free to use?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Olive offers both monthly and yearly subscription plans that give you unlimited scans, database searches, and comprehensive lab-testing data. The yearly plan offers a 60% savings compared to the monthly plan, including 7 months free.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              How many products does Olive cover?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Olive's database covers over 1 million products, 10,000 healthy-fats restaurants, and independently lab-tested foods. Our database is continuously updated to include new products and the latest food safety information.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Does Olive have brand partnerships?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>No. Olive is 100% independent. We never monetize through brand deals, affiliate links, or ads. This ensures our recommendations are always aligned with our users' best interests, not corporate sponsorships.</p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Is Olive available on Android?
+              <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M5 12l14 0"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Currently, Olive is available for iOS devices. An Android version is being developed and will be available soon. Stay tuned via our newsletter for updates!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 fade-up">
+        <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-olive">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"/><path d="M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"/></svg>
+          Download for iOS
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FINAL CTA ===================== -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <h2 class="fade-up">Keep your family safe with Olive</h2>
+      <div class="cta-features fade-up">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+          Effortless food scanning
+        </span>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+          Peace of mind for parents
+        </span>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></svg>
+          Healthy product recommendations
+        </span>
+      </div>
+      <a href="https://apps.apple.com/us/app/olive-holistic-food-scanner/id6739765789" target="_blank" class="btn-white fade-up">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M15.079 5.999l.239 .012c1.43 .097 3.434 1.013 4.508 2.586a1 1 0 0 1 -.344 1.44c-.05 .028 -.372 .158 -.497 .217a4.15 4.15 0 0 0 -.722 .431c-.614 .461 -.948 1.009 -.942 1.694c.01 .885 .339 1.454 .907 1.846c.208 .143 .436 .253 .666 .33c.126 .043 .426 .116 .444 .122a1 1 0 0 1 .662 .942c0 2.621 -3.04 6.381 -5.286 6.381c-.79 0 -1.272 -.091 -1.983 -.315l-.098 -.031c-.463 -.146 -.702 -.192 -1.133 -.192c-.52 0 -.863 .06 -1.518 .237l-.197 .053c-.575 .153 -.964 .226 -1.5 .248c-2.749 0 -5.285 -5.093 -5.285 -9.072c0 -3.87 1.786 -6.92 5.286 -6.92c.297 0 .598 .045 .909 .128c.403 .107 .774 .26 1.296 .508c.787 .374 .948 .44 1.009 .44h.016c.03 -.003 .128 -.047 1.056 -.457c1.061 -.467 1.864 -.685 2.746 -.616l-.24 -.012z"/><path d="M14 1a1 1 0 0 1 1 1a3 3 0 0 1 -3 3a1 1 0 0 1 -1 -1a3 3 0 0 1 3 -3z"/></svg>
+        Download for iOS
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer-olive">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5>Explore More Olive Tools</h5>
+          <ul>
+            <li><a href="#">Explore Foods</a></li>
+            <li><a href="#">Allergy Scanner App</a></li>
+            <li><a href="#">Gluten Free Scanner</a></li>
+            <li><a href="#">Dairy Free App</a></li>
+            <li><a href="#">Food Ingredient Checker</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>About</h5>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="mailto:support@oliveapp.com">Email us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Stay Updated</h5>
+          <div class="footer-newsletter">
+            <p>Get the latest lab testing data sent directly to your inbox.</p>
+            <form id="newsletter-form" class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+              <button class="btn-subscribe" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Olive Inc.</p>
+        <div class="legal-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Refund Policy</a>
+          <a href="#">Medical Consent</a>
+          <a href="#">Sign in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
